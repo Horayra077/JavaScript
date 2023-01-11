@@ -1,6 +1,11 @@
-function randomNumber(x, y) {
-    let result = x + y;
-    console.log(result);
+function helloWorld() {
+    console.log("Hello I'm from function");
 }
-randomNumber(8, 3);
-randomNumber(7, 5);
+
+helloWorld();
+helloWorld();
+helloWorld();
+helloWorld();
+
+
+
