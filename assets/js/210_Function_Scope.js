@@ -12,9 +12,9 @@ let totalEggs = 0;
 function collectEggs() {
     totalEggs = 6;
 }
-console.log(totalEggs);
+console.log(totalEggs);  //0
 collectEggs();
-console.log(totalEggs);
+console.log(totalEggs); //6
 
 //------------------------//
 
