@@ -5,7 +5,7 @@ if (radius > 0) {
     var circSquer = circ * circ;
 }
 
-console.log(radius); // *
+console.log(radius); // 8
 console.log(circSquer); // 2524.0576
 console.log(PI); //Error PI is not defined
 console.log(circ); //Error circ is not defined
