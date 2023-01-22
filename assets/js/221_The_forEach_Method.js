@@ -32,5 +32,5 @@ const movies = [
 ]
 
 movies.forEach(function (movie) {
-    console.log(`${movie.title} - ${movie.score}/10`)
+    console.log(`${movie.title} - ${movie.score}/100`)
 }) 
