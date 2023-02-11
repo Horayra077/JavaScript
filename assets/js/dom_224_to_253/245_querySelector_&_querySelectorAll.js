@@ -7,7 +7,7 @@ const secoundImage = document.querySelector('img:nth-of-type(3)');
 console.log(secoundImage);
 
 const ancorTag = document.querySelector('a[title="Java"]')
-// Find first ancor tag with title Java
+// Find first anchor tag with title Java
 console.log(ancorTag);
 
 
