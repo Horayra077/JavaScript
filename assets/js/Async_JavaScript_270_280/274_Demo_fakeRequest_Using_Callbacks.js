@@ -1,4 +1,6 @@
 // const delay = Math.floor(Math.random() * 4500) + 500;
+
+// Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive):
 // minimum 500
 // maximum 5000
 
