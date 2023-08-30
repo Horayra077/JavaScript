@@ -11,8 +11,25 @@ const shoppingCart = [
         quentity: 3
     }
 ]
+
 // Access product: 'Echo'
 console.log(shoppingCart[1].product);
+
+
+const family = [
+    {
+        relation: 'father',
+        name: 'mr. delwar',
+        income: 35000
+    },
+    {
+        relation: 'mother',
+        name: 'm. nessa',
+        income: null
+    }
+]
+
+console.log(family[0].income);
 
 // Object inside array & object
 const student = {

@@ -15,6 +15,7 @@ function addition(x, y) {
 }
 
 const result = addition(9, 6);
+// const result = addition('sacbj', NaN);
 // const result = addition(addition(7, 4), 6);
 console.log(result);
 

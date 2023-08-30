@@ -11,8 +11,13 @@ const seatingChart = [
     ['hridoy', 'alamin', 'mehedi']
 ]
 
+console.log('\n');
+console.log('length: ' + seatingChart.length);
+console.log('\n');
+
 for (let i = 0; i < seatingChart.length; i++) {
     for (let j = 0; j < seatingChart[i].length; j++) {
         console.log(seatingChart[i][j])
     }
+    console.log('\n');
 }

@@ -10,6 +10,7 @@ console.log([] == []);
 let nums = [1, 2, 3];
 let numCopy = nums;
 console.log(numCopy);
+
 nums.push(4);
 console.log(nums);
 console.log(numCopy);
@@ -20,3 +21,5 @@ console.log(numCopy);
 
 console.log(nums === numCopy); // It's true
 // Since nums & numCopy Reference memory same so they are same
+
+

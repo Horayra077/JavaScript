@@ -18,8 +18,10 @@ movieLine.pop(); // No argument needed in Pop method
 console.log(movieLine);
 
 
+movieLine.shift(); // Shift remove the one thing at the beginning
+console.log(movieLine);
 movieLine.shift();
 console.log(movieLine);
 
-movieLine.unshift('vip');
+movieLine.unshift('vip'); // add at the beginning
 console.log(movieLine);

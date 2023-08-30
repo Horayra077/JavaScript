@@ -10,6 +10,11 @@ while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
 
+// If some one enter string as a maximum number,
+// Then the input cannot be converted to an integer, parseInt returns NaN
+// So 'while(!maximum)' will be true 
+// And loop will continue executing as long as maximum is evaluated as false 
+
 const targetNum = Math.floor(Math.random() * maximum) + 1;
 
 let guess = parseInt(prompt("Enter your first guess!"));

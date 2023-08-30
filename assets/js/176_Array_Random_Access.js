@@ -15,6 +15,8 @@ console.log(colors[2]); //It's print colors array index 2 value
 console.log(colors[2][1]); //It's print colors array index 2 values 2nd index
 // 'e'
 
+console.log(lottoNums[2][1]); //undefine 
+
 console.log(colors); // Before array modifying
 
 colors[0] = 'red'; // Change array index value

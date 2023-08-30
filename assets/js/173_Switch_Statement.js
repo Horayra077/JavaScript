@@ -23,3 +23,18 @@ switch (day) {
     default:
         console.log("I DONT KNOW");
 }
+
+let Name = 'abu';
+switch (Name) {
+    case 'michel':
+        console.log('He is michel');
+        break;
+    case 'trevor':
+        console.log('He is trevor');
+        break;
+    case 'franklin':
+        console.log('He is frankline');
+        break;
+    default:
+        console.log('Hi is Horayra');
+}

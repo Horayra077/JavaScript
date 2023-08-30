@@ -3,4 +3,4 @@ function greet(firstName) {
 }
 
 greet();
-greet('Mina');
+greet('Messi');

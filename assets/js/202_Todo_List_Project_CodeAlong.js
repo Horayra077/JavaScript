@@ -25,4 +25,4 @@ while (input !== 'quit' && input !== 'q') {
     input = prompt("What would like to do?");
 }
 
-console.log("Ok, Quit the App!");
+console.log("Ok, Quit the App!"); 

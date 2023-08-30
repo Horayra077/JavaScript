@@ -4,6 +4,9 @@ function capitalize(str) {
     return finalStr;
 }
 
+// const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+// console.log(p.replace('dog', 'monkey'));
+
 console.log(capitalize('eggplant'));
 console.log(capitalize('pamplemousse'));
 console.log(capitalize('squid'));

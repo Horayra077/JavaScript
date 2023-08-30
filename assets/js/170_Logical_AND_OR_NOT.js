@@ -30,5 +30,7 @@ console.log("----------**----------");
 let firstName = prompt("Enter your first name");
 if (!firstName) {
     firstName = prompt("Please enter your first name");
+    alert(`Your first name: ${firstName}`);
 }
+alert(`Your first name: ${firstName}`);
 

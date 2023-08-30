@@ -18,3 +18,18 @@ bankRobbery();
 
 
 // But color variable don't have access to that up top instead of bankRobbery()
+
+
+
+// Example of lexical scope
+function colorAsscess() {
+
+    function cryForHelp() {
+        let color = 'purple';
+    }
+    cryForHelp();
+    console.log(color);
+}
+
+colorAsscess();
+

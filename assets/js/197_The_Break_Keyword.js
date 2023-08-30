@@ -5,5 +5,6 @@ while (true) {
         break;
     }
     input = prompt(input);
+    // input = prompt("Hey, say something!");
 }
 console.log("OK YOU WIN")
