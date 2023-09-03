@@ -9,6 +9,8 @@ const caps = texts.map(function (text) {
 console.log(texts);
 console.log(caps);
 
+
+// Capitalize the first letter
 const bestClubs = ['bercelona', 'man city', 'napoli', 'bayarn munich', 'psg'];
 const champClubs = bestClubs.map(function (champClub) {
 
