@@ -9,6 +9,18 @@ const caps = texts.map(function (text) {
 console.log(texts);
 console.log(caps);
 
+const bestClubs = ['bercelona', 'man city', 'napoli', 'bayarn munich', 'psg'];
+const champClubs = bestClubs.map(function (champClub) {
+
+    let chaOne = champClub[0].toUpperCase();
+    let restOf = champClub.slice(1);
+    let club = chaOne + restOf.toLowerCase();
+    return club;
+})
+
+console.log(champClubs);
+
+console.log('---------------------')
 
 //------------------------------------//
 
