@@ -10,3 +10,6 @@ function yell(msg) {
 
 yell('Hello ');
 yell(1234);
+
+// When pass a number then msg.toUpperCase() provide an error
+// That is user define error, In catch(e) block console.log error details. 

@@ -1,6 +1,7 @@
 // const add = function(x,y){
 //     return x + y;
 // }
+// This is call function expressions
 
 const add = (x, y) => {
     return x + y;
