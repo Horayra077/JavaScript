@@ -9,8 +9,8 @@ console.log(secoundHighScore); //899
 console.log('/------------------------------/')
 
 
-// Destructuring an array is a feature in JavaScript 
-// that allows you to extract individual elements from an array 
+// Destructuring an array is a feature in JavaScript
+// that allows you to extract individual elements from an array
 // and assign them to variables.
 
 const [gold, silve, bronze] = score;

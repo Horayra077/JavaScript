@@ -15,18 +15,19 @@ const user = {
 
 // console.log(fullName(user))
 
-// function fullName(user) {
-//     const { firsrName, lastName } = user;
-//     return `${firsrName} ${lastName}`
-// }
-// console.log(fullName(user))
+
+
+function fullName(user) {
+    const { firsrName, lastName } = user;
+    return `${firsrName} ${lastName}`
+}
+console.log(fullName(user))
 
 function fullName({ firsrName, lastName }) {
     return `${firsrName} ${lastName}`
 }
 
 console.log(fullName(user))
-
 
 //-------------------------------------------//
 
@@ -85,6 +86,8 @@ const bestMovie = movies.filter(({ score }) => score >= 90)
 console.log(bestMovie)
 
 
+
+
 //----------------------------------------//
 
 
@@ -93,7 +96,9 @@ console.log(bestMovie)
 // })
 // console.log(movieDesc)
 
+
 const movieDesc = movies.map(({ title, year, score }) => {
     return `${title} (${year}) is rated ${score}`
 })
 console.log(movieDesc)
+

@@ -9,6 +9,7 @@ const person = {
         setTimeout(() => {
             console.log(this); // insted of full window print full object
             console.log(this.fullName()) // undefined
+            console.log(this.lastName)
         }, 3000)
     }
 }

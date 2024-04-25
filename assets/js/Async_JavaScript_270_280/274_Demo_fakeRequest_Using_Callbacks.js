@@ -7,7 +7,7 @@
 const fakeRequestCallback = (url, success, failure) => {
     const delay = Math.floor(Math.random() * 4500) + 500;
     setTimeout(() => {
-        if (delay > 4000) {
+        if (delay > 3500) {
             failure('Connection Timeout:(')
         } else {
             success(`Here is your fake data from ${url}`)
@@ -15,12 +15,15 @@ const fakeRequestCallback = (url, success, failure) => {
     }, delay)
 }
 
+
 // fakeRequestCallback('books.com',
 //     function (response) {
 //         console.log("IT WORKED!!!", response)
 //     }, function (err) {
 //         console.log("ERROR!!!", err)
 //     })
+
+
 
 fakeRequestCallback('books.com',
     function (response) {
@@ -40,3 +43,4 @@ fakeRequestCallback('books.com',
     }, function (err) {
         console.log("ERROR!!!", err)
     })
+

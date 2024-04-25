@@ -9,3 +9,6 @@ console.log(Math.max(...nums)) //599
 console.log(Math.min(...nums)) //3
 console.log(...nums) // array print separately
 console.log(...'hello world')
+
+
+

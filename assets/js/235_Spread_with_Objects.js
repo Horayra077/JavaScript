@@ -3,7 +3,7 @@ const canine = { isFurry: true, family: 'Caninae' }
 
 const catDog = { ...feline, ...canine } // combine object
 // but there is a conflict both object has same key (family)
-// so the last key valu will win and added to the new object 
+// so the last key valu will win and added to the new object
 
 console.log(catDog);
 

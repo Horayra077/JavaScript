@@ -36,12 +36,15 @@
 //     }, 1000)
 // }, 1000)
 
+
+
 //------------------ Same thing but callback ----------------//
 
 
 const delayColorChange = (newColor, delay, doNext) => {
     setTimeout(() => {
         document.body.style.backgroundColor = newColor;
+        console.log(doNext);
         doNext();
     }, delay);
 
@@ -61,12 +64,12 @@ delayColorChange('red', 1000, () => {
 
 // -------------- callback example (fake) ------------- //
 
-searchMoviesAPI('amadeus', () => {
-    saveToMyDB(movies, () => {
-        // if it works, run this:
-    }, () => {
-        // if it doesn't work, run this:
-    })
-}, () => {
-    // if API is down, or request failed
-})
+// searchMoviesAPI('amadeus', () => {
+//     saveToMyDB(movies, () => {
+//         // if it works, run this:
+//     }, () => {
+//         // if it doesn't work, run this:
+//     })
+// }, () => {
+//     // if API is down, or request failed
+// })
