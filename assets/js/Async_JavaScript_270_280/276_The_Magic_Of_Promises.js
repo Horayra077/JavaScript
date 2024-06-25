@@ -12,6 +12,8 @@ const fakeRequestPromise = (url) => {
 }
 
 
+
+
 // fakeRequestPromise('yelp.com/api/coffee/page1')
 //     .then(() => {
 //         console.log("IT WORKED (page 1)!!!!");
@@ -33,6 +35,9 @@ const fakeRequestPromise = (url) => {
 //     .catch(() => {
 //         console.log("OH NO, ERROR (page 1)!!!");
 //     })
+
+
+
 
 fakeRequestPromise('yelp.com/api/coffee/page1')
     .then((data) => {

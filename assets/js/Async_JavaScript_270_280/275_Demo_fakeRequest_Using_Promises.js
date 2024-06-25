@@ -12,8 +12,6 @@ const fakeRequestPromise = (url) => {
 }
 
 
-
-
 // const request = fakeRequestPromise('yelp.com/api/coffee');
 
 // request.then(() => {
@@ -27,23 +25,25 @@ const fakeRequestPromise = (url) => {
 // OR 
 
 fakeRequestPromise('yelp.com/api/coffee/page1')
-    .then(() => {
-        console.log("IT WORKED (page 1)!!!!");
+    .then((res) => {
+        console.log("IT WORKED (page 1)!!!!", res);
         fakeRequestPromise('yelp.com/api/coffee/page2')
-            .then(() => {
-                console.log("IT WORKED (page 2)!!!!");
+            .then((res) => {
+                console.log("IT WORKED (page 2)!!!!", res);
                 fakeRequestPromise('yelp.com/api/coffee/page3')
-                    .then(() => {
-                        console.log("IT WORKED (page 3)!!!!");
+                    .then((res) => {
+                        console.log("IT WORKED (page 3)!!!!", res);
                     })
-                    .catch(() => {
-                        console.log("OH NO, ERROR (page 3)!!!");
+                    .catch((err) => {
+                        console.log("OH NO, ERROR (page 3)!!!", err);
                     })
             })
-            .catch(() => {
-                console.log("OH NO, ERROR (page 2)!!!");
+            .catch((err) => {
+                console.log("OH NO, ERROR (page 2)!!!", err);
             })
     })
-    .catch(() => {
-        console.log("OH NO, ERROR (page 1)!!!");
+    .catch((err) => {
+        console.log("OH NO, ERROR (page 1)!!!", err);
     })
+
+
