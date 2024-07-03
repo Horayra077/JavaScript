@@ -36,7 +36,7 @@ fakeRequestCallback('books.com',
                     function (response) {
                         console.log("IT WORKED AGAIN & AGAIN (3rd req)!!!", response)
                     }, function (err) {
-                        console.log("ERROR (3rd req)!!!", err)
+                        console.log("Egit clone --bare https://github.com/EXAMPLE-USER/FORK-NAME.gitRROR (3rd req)!!!", err)
                     })
             }, function (err) {
                 console.log("ERROR (2nd req)!!!", err)
