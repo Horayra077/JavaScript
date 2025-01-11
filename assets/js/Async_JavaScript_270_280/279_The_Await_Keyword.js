@@ -34,3 +34,7 @@ async function printRainbow() {
 }
 
 printRainbow();
+
+// Test change;
+
+console.log('This is a test');
