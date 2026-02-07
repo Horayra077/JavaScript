@@ -38,3 +38,4 @@ const checkPrime = x => {
 }
 
 console.log(isPrime(14));
+// Test COmmit
